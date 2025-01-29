@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
-import 'dart:ui' as ui;
 import 'dart:math';
+
+import 'package:flutter/material.dart';
 
 import 'dailyUpdateForm.dart';
 import 'loginScreen.dart';
@@ -31,14 +31,21 @@ class ProfilePage extends StatelessWidget {
               } else if (value == 'Daily Updates') {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => ExpandableCardFormApp()),
+                  MaterialPageRoute(
+                      builder: (context) => ExpandableCardFormApp()),
                 );
               } else if (value == 'Logout') {
                 _logout(context);
               }
             },
             itemBuilder: (BuildContext context) {
-              return {'Home', 'Daily Updates', 'About Us', 'Contact Us', 'Logout'}.map((String choice) {
+              return {
+                'Home',
+                'Daily Updates',
+                'About Us',
+                'Contact Us',
+                'Logout'
+              }.map((String choice) {
                 return PopupMenuItem<String>(
                   value: choice,
                   child: Text(choice),
