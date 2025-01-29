@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "706983246851",
+    "project_id": "smeiflutterdb",
+    "storage_bucket": "smeiflutterdb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706983246851:android:ce9e2e5844469dd7f7a236",
+        "android_client_info": {
+          "package_name": "org.smei.smei_workspace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706983246851-n02kjub7ucdtr063d2n34r74usoau9o1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.smei.smei_workspace",
+            "certificate_hash": "df285a2191fbdefa1f7a0364f15d64a02a689daa"
+          }
+        },
+        {
+          "client_id": "706983246851-copcei61u63s7fjnnbql9h7saa39tu0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnO8kQOkwM-NimvImweMlDNTpZRZxmbEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706983246851-copcei61u63s7fjnnbql9h7saa39tu0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
